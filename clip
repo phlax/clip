@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+text=$(< /dev/stdin)
+
+echo "$text"
+echo -n "$text" | xsel --clipboard
